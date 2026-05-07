@@ -118,7 +118,7 @@ cd society-maintenance-manager
 pip install reportlab openpyxl
 
 # 3. Run
-python Test_claude_global_2.py
+python main.py
 ```
 
 No virtual environment is strictly required, but recommended:
@@ -127,7 +127,7 @@ No virtual environment is strictly required, but recommended:
 python -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\activate
 pip install reportlab openpyxl
-python Test_claude_global_2.py
+python main.py
 ```
 
 ### Windows note
@@ -150,7 +150,7 @@ The app handles UTF-8 console encoding automatically on Windows. Just run it dir
 ```
 society-maintenance-manager/
 │
-├── Test_claude_global_2.py   # Main application (single-file)
+├── main.py   # Main application (single-file)
 ├── societies.json             # Auto-created: registry of society databases
 ├── README.md
 │
